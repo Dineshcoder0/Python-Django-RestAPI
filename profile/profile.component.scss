@@ -1,0 +1,36 @@
+.calculator{
+
+  background-color: white;
+  min-height: 100vh;
+  margin-top: -1.5rem;;
+
+
+}
+
+table,  th,  td {
+  border: 1px solid;
+}
+
+h1{
+  text-align: center;
+  color: violet;
+}
+
+p{
+  font-weight: bold;
+}
+
+
+.nextbtn{
+  margin-top: 6rem;
+}
+
+.nextbtn .btn{
+  padding: 1.7rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  color: #fff;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
+}

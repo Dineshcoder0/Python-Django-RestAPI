@@ -1,0 +1,46 @@
+
+<div class="calculator" id="calculator">
+<!-- <div class="card">
+  <div class="card-body">
+       <button type="button" class="btn btn-outline-success" routerLink="/sigin">Add new user</button>
+  </div>
+</div> -->
+
+<h1>API - POST & GET METHOD FROM PYTHON DJANGO (Rest API Framework)</h1><br>
+
+<p>POST Api Link -> http://127.0.0.1:8000/general/create</p>
+
+<p>GET Api Link -> http://127.0.0.1:8000/general/detail/</p>
+
+<br>
+
+
+
+<table class="table table-striped">
+  <tr>
+       <th>employeeId</th>
+       <th>employeeName</th>
+       <th>mobile</th>
+       <!-- <th>userName</th>
+       <th>password</th>
+       <th>confirmPassword</th> -->
+  </tr>
+  <tr *ngFor="let x of EmpDatas" >
+       <td>{{x.id}}</td>
+       <td>{{x.First_name}}</td>
+       <td>{{x.phone}}</td>
+       <!-- <td>{{x.userName}}</td>
+       <td>{{x.password}}</td>
+       <td>{{x.confirmPassword}}</td> -->
+
+  </tr>
+
+</table>
+
+<div class="nextbtn">
+  <a routerLink="/projects" target="_blank" class="btn"><span>Back</span>&nbsp;</a>
+</div>
+
+</div>
+
+
